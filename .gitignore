@@ -7,6 +7,8 @@
 *.beam
 *.o
 build/**
+_build/**
+deps/**
 xcode/**
 src/platforms/esp32/build/**
 src/platforms/esp32/build/**/*.d
@@ -16,3 +18,7 @@ src/platforms/esp32/main/component_ports.txt
 !src/platforms/esp32/components/libatomvm/
 .idea/**
 .vscode/**
+mix.lock
+
+
+
